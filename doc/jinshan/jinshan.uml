@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.xinche.code_search.domain</OriginalElement>
+  <nodes>
+    <node x="0.0" y="797.0">com.xinche.code_search.properties.SearchPropertiesTest</node>
+    <node x="1533.0545653907493" y="214.0">com.xinche.code_search.model.gitlab.CloneProjectErrorRepo</node>
+    <node x="1310.0" y="695.0">com.xinche.code_search.domain.job.UpsertProject</node>
+    <node x="554.6114932216905" y="0.0">com.xinche.code_search.model.gitlab.ProjectModel</node>
+    <node x="866.2708333333333" y="214.0">com.xinche.code_search.properties.JobProperties</node>
+    <node x="712.2708333333333" y="214.0">com.xinche.code_search.model.gitlab.ProjectRepo</node>
+    <node x="510.82949561403484" y="456.0">com.xinche.code_search.domain.job.gitlab.ScanGitlab</node>
+    <node x="1009.5337818979266" y="456.0">com.xinche.code_search.domain.job.CloneProjects</node>
+    <node x="448.99999999999994" y="214.0">com.xinche.code_search.domain.job.gitlab.GitlabMetadata</node>
+    <node x="186.0" y="214.0">com.xinche.code_search.domain.job.table.GoogleTable.Status</node>
+    <node x="819.0" y="695.0">com.xinche.code_search.model.gitlab.CloneProjectError.CloneProjectErrorBuilder</node>
+    <node x="1276.7459031100477" y="112.0">com.xinche.code_search.script.CloneProjectParameter</node>
+    <node x="302.0" y="112.0">com.xinche.code_search.domain.job.JobContext</node>
+    <node x="595.7708333333333" y="112.0">com.xinche.code_search.properties.GitlabProperties</node>
+    <node x="1624.8389055023922" y="456.0">com.xinche.code_search.model.gitlab.CloneProjectErrorTest</node>
+    <node x="801.3294956140351" y="456.0">com.xinche.code_search.domain.job.GrepProjects</node>
+    <node x="1084.0" y="695.0">com.xinche.code_search.model.gitlab.ProjectModel.ProjectModelBuilder</node>
+    <node x="546.0" y="695.0">com.xinche.code_search.properties.ElasticsearchProperties</node>
+    <node x="16.0" y="695.0">com.xinche.code_search.properties.SearchProperties</node>
+    <node x="0.0" y="214.0">com.xinche.code_search.domain.job.table.FileDescription</node>
+    <node x="250.0" y="695.0">com.xinche.code_search.script.CloneProjectParameter.CloneProjectParameterBuilder</node>
+    <node x="1522.9959031100477" y="112.0">com.xinche.code_search.model.gitlab.CloneProjectError</node>
+    <node x="80.0" y="456.0">com.xinche.code_search.domain.job.table.GoogleTable</node>
+    <node x="1083.7459031100477" y="112.0">com.xinche.code_search.properties.ScriptProperties</node>
+    <node x="586.943072169059" y="598.0">com.xinche.code_search.goal.jinshan.GrepJinshan</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.xinche.code_search.domain.job.table.GoogleTable.Status" target="com.xinche.code_search.domain.job.table.GoogleTable">
+      <point x="0.0" y="-70.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="com.xinche.code_search.model.gitlab.CloneProjectError.CloneProjectErrorBuilder" target="com.xinche.code_search.model.gitlab.CloneProjectError">
+      <point x="0.0" y="-158.0" />
+      <point x="0.0" y="136.0" />
+    </edge>
+    <edge source="com.xinche.code_search.model.gitlab.ProjectModel.ProjectModelBuilder" target="com.xinche.code_search.model.gitlab.ProjectModel">
+      <point x="0.0" y="-1016.0" />
+      <point x="0.0" y="576.0" />
+    </edge>
+    <edge source="com.xinche.code_search.script.CloneProjectParameter.CloneProjectParameterBuilder" target="com.xinche.code_search.script.CloneProjectParameter">
+      <point x="0.0" y="-136.0" />
+      <point x="0.0" y="136.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3316345103749545" x="971.5" y="1363.5" />
+  <SelectedNodes>
+    <node>com.xinche.code_search.properties.SearchPropertiesTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

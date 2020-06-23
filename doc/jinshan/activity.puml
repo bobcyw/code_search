@@ -1,0 +1,11 @@
+@startuml
+start
+fork
+:读取老项目;
+fork again
+:克隆项目;
+:文本过滤源代码;
+end fork
+:生成新项目;
+end
+@enduml

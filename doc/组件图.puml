@@ -1,0 +1,29 @@
+@startuml
+
+package "Application" {
+}
+
+package "Domain" {
+    package "Jinshan" {
+        [scan-jinshan]
+        [Grep Properties]
+    }
+
+    package "code-clone" {
+        [Clone Properties]
+    }
+
+    package "project-meta" {
+        [Get info from Gitlab]
+    }
+}
+
+package "Infrastructure" {
+    [Script]
+    [Grep]
+    [Gitlab]
+    [Git]
+    [Clone Project]
+}
+
+@enduml
